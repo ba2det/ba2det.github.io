@@ -283,54 +283,68 @@ The code will be made available.
       </div>
     </div>
     <!--/ Methodology. -->
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video & Demo</h2>
+  </div>
+</section>
+
+<section class="section">
+   <!-- Paper video. -->
+  <div class="container is-max-desktop"> 
+  <h2 class="title is-3">Video & Demo</h2>
+    <div class="columns is-centered">
+      <div class="column is-full-width">
         <h2 class="title is-4">(1) Monocular 3D Object Detection and Tracking</h2>
-        <div class="publication-video">
+        <div class="content has-text-centered">
         <video poster="" id="3ddet" autoplay controls muted loop playsinline width="100%">
           <source src="" type="video/mp4">
         </video>
         </div>
-        <h2 class="title is-4">(2) 2D Multiple Object Tracking with 3D Representation</h2>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+      <h2 class="title is-4">(2) 2D Multiple Object Tracking with 3D Representation</h2>
         <div class="content has-text-justified">
         <p>
         The pseudo 3D labels generated from BA<sup>2</sup>-Det offer the supervision for a 2D object tracker, called BA<sup>2</sup>-Track, to learn the 3D representation of objects. This allows a 2D tracker to learn the 3D representation of objects and better distinguish and match them in 3D space.
-        </p>  
+        </p>
         </div>
-        <div class="publication-video">
+        <div class="content has-text-centered">
         <video poster="" id="mot" autoplay controls muted loop playsinline width="80%">
           <source src="./static/videos/WOD_segment-7650923902987369309_2380_000_2400_000.mp4" type="video/mp4">
         </video>
         </div>
-        
-        <div class="container is-max-desktop">
-          <h2 class="title is-4">(3) Open-set Monocular 3D Object Detection</h2>
-            <div class="column">
-              <div class="content">
-        <div class="publication-video">
-        <video poster="" id="openset" autoplay controls muted loop playsinline width="40%">
-          <source src="./static/videos/openset.mp4" type="video/mp4">
-        </video>
-          </div>
-          </div>
-              </div>
-         <div class="column">
-         <div class="content">
-        <div class="embed-responsive embed-responsive-16by9">
-                <iframe style="clip-path: inset(1px 1px)" width="40%" height="30%" src="https://sketchfab.com/models/b6b76a77a93f49898be5955a857a1cfd/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        </div>
-         </div>
-           </div>
-        </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+
+    <div class="columns is-centered">
+    <h2 class="title is-4">(3) Open-set Monocular 3D Object Detection</h2>
+      <div class="content has-text-justified">
+      <p>
+      Here, we show the ability to detect open-set 3D objects in complex scenes with <a href="https://segment-anything.com/">SAM</a> instead of 2D ground truth. We click the objects to generate the 2D masks in SAM. 
+      </p>
+      </div>
+          <div class="column">
+          <div class="content">
+          <div class="content has-text-centered">
+          <video poster="" id="openset" autoplay controls muted loop playsinline width="40%">
+            <source src="./static/videos/openset.mp4" type="video/mp4">
+          </video>
+          </div>
+          </div>
+          </div>
+          
+          <div class="column">
+          <div class="content">
+          <div class="embed-responsive embed-responsive-16by9">
+                <iframe style="clip-path: inset(1px 1px)" width="40%" height="30%" src="https://sketchfab.com/models/b6b76a77a93f49898be5955a857a1cfd/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          </div>
+          </div>
+          </div>
+    </div>
   </div>
+
 </section>
-
-
 
 <!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
