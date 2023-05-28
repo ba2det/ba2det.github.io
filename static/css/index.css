@@ -167,7 +167,7 @@ body {
 }
 
 .ratio-square {
-  padding-top: 100%;
+  padding-top: 75%;
 }
 
 .ratio-inner,
@@ -182,5 +182,5 @@ body {
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 75%;
+  height: 100%;
 }
