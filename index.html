@@ -143,6 +143,11 @@ The code will be made available.
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-4">(1) Monocular 3D Object Detection and Tracking</h2>
+        <div class="content has-text-justified">
+        <p>
+        We show the qualitative results of BA-Det (trained with 10% labeled videos), the baseline method, and the proposed BA<sup>2</sup>-Det. Our method can achieve comparable performance with fully supervised BA-Det, and even better in some near cases. Compared with the baseline, a very obvious phenomenon is that our recall can be much better than the baseline method, mainly due to the iterative self-retraining design. The illustrations also show a typical failure case of BA<sup>2</sup>-Det that on a distance of about 75m, there are some false positives. This is because the 3D pseudo labels can be 0-200m and thus somewhat affects the training process. If the annotations include some farther objects, this problem may be alleviated.
+        </p>
+        </div>
         <div class="content has-text-centered">
         <video poster="" id="3ddet" autoplay controls muted loop playsinline width="100%">
           <source src="./static/videos/detvideo.mp4" type="video/mp4">
