@@ -155,10 +155,24 @@ The code will be made available.
         </div>
       </div>
     </div>
-
+   <div class="columns is-centered">
+      <div class="column is-full-width">
+      <h2 class="title is-4">(2)  Monocular 3D Object Detection and Tracking with Low-speed Ego-motion</h2>
+        <div class="content has-text-justified">
+        <p>
+        We train the single-frame 3D object detector so the object's 3D position can be predicted unrelated to the movement of the ego vehicle. Besides, due to BA-Det is an object-centric temporal aggregation method, it is also independent of ego-motion. 
+        </p>
+        </div>
+        <div class="content has-text-centered">
+        <video poster="" id="mot" autoplay controls muted loop playsinline width="100%">
+          <source src="./static/videos/segment-7932945205197754811_780_000_800_000_with_camera_labels.mp4" type="video/mp4">
+        </video>
+        </div>
+      </div>
+    </div>
     <div class="columns is-centered">
       <div class="column is-full-width">
-      <h2 class="title is-4">(2) 2D Multiple Object Tracking with 3D Representation</h2>
+      <h2 class="title is-4">(3) 2D Multiple Object Tracking with 3D Representation</h2>
         <div class="content has-text-justified">
         <p>
         The pseudo 3D labels generated from BA<sup>2</sup>-Det offer the supervision for a 2D object tracker, called BA<sup>2</sup>-Track, to learn the 3D representation of objects. This allows a 2D tracker to learn the 3D representation of objects and better distinguish and match them in 3D space.
@@ -174,7 +188,7 @@ The code will be made available.
 
     <div class="columns is-centered">
       <div class="column is-full-width">
-    <h2 class="title is-4">(3) Open-set Monocular 3D Object Detection</h2>
+    <h2 class="title is-4">(4) Open-set Monocular 3D Object Detection</h2>
       <div class="content has-text-justified">
       <p>
       Here, we show the ability to detect open-set 3D objects in complex scenes with <a href="https://segment-anything.com/">SAM</a> instead of 2D ground truth. We click the objects to generate the 2D masks in SAM. 
