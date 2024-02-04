@@ -82,7 +82,7 @@
               TL;DR: We propose a novel 2D supervised monocular 3D object detection paradigm, leveraging the idea of global (scene-level) to local (instance-level) 3D reconstruction.
            </p> -->
         </div>
-        <hr style="margin-top:0px">
+<!--         <hr style="margin-top:0px"> -->
         <div class="content has-text-justified">
           <p>
             With the rapid development of large models, the need for data has become increasingly crucial. Especially in 3D object detection, costly manual annotations have hindered further advancements.
@@ -91,7 +91,7 @@ Thanks to advanced 3D reconstruction techniques, it is now feasible to reconstru
 In this paper, we introduce a novel paradigm called BA<sup>2</sup>-Det, encompassing pseudo label generation and multi-stage generalization. 
 We devise the DoubleClustering algorithm to obtain object clusters from reconstructed scene-level points, and further enhance the model's detection capabilities by developing three stages of generalization: progressing from complete to partial, static to dynamic, and close to distant.
 Experiments conducted on the large-scale Waymo Open Dataset show that the performance of BA<sup>2</sup>-Det is on par with the fully-supervised methods using 10% annotations. 
-Additionally, using large raw videos for pretraining, BA<sup>2</sup>-Det can achieve a 20% relative improvement on the KITTI dataset. The method also has great potential for detecting open-set 3D objects in complex scenes. Anonymous project page: \url{https://ba2det.site}.
+Additionally, using large raw videos for pretraining, BA<sup>2</sup>-Det can achieve a 20% relative improvement on the KITTI dataset. The method also has great potential for detecting open-set 3D objects in complex scenes. 
 <!--             With the rise of big models, the need for data has become increasingly crucial. 
             However, costly manual annotations may hinder further advancements. In monocular 3D object detection, existing works have investigated weakly supervised algorithms with the help of additional LiDAR sensors to generate 3D pseudo labels, which cannot be applied to ordinary videos.
             In this paper, we propose a novel paradigm called BA<sup>2</sup>-Det that utilizes global-to-local 3D reconstruction to supervise the monocular 3D object detector in a purely 2D manner.
