@@ -129,7 +129,8 @@ Additionally, using large raw videos for pretraining, BA<sup>2</sup>-Det can ach
           <div class="content has-text-justified">
             <img src="./static/images/method_ba2det.png" width="100%">
           <p>
-            Pipeline of BA<sup>2</sup>-Det. We take the video sequence as input. The Global BA stage is to generate 3D pseudo labels from scene-level global reconstruction, including DoubleCluster and GBA-Learner. Then the labels are sent to the Local BA stage, which is to learn a monocular 3D object detector in an iterative way.
+            Pipeline of BA<sup>2</sup>-Det. <b>Top:</b> reconstruction-based pseudo label generation process. We cluster the object point clouds from the reconstructed scene and fit the tight bounding box as the pseudo label. <b>Bottom:</b> Three stages of network generalization. The neural networks inside the red rounded rectangles are also for the inference.
+<!--             Pipeline of BA<sup>2</sup>-Det. We take the video sequence as input. The Global BA stage is to generate 3D pseudo labels from scene-level global reconstruction, including DoubleCluster and GBA-Learner. Then the labels are sent to the Local BA stage, which is to learn a monocular 3D object detector in an iterative way. -->
           </p>
         </div>
       </div>
